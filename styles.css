@@ -1,0 +1,56 @@
+body { background-color: #fff8ec; color: #1b2a41; font-family: Arial, Helvetica, sans-serif; font-size: 110%; margin: 0; }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; color: #0b2447; }
+h2 { text-align: center; font-size: 250%; }
+
+a:link { color: #0b2447; text-decoration: none; }
+a:visited { color: #0b2447; }
+a:hover { color: #e8590c; text-decoration: underline; }
+a:active { color: #138808; }
+
+#header { background-color: #0b2447; border-bottom: 5px solid #e8590c; padding: 15px 20px; text-align: center; }
+#header h1 { color: white; margin: 0; font-size: 200%; }
+#menu { margin-top: 10px; }
+#menu a:link, #menu a:visited { color: white; border: 2px solid #e8590c; padding: 5px 14px; margin: 4px; display: inline-block; }
+#menu a:hover { background-color: #e8590c; color: white; text-decoration: none; }
+#hero { background-color: #f1e6cf; color: #1b2a33; padding: 60px 0; }
+#hero h1 { font-size: 380%; line-height: 1.1; }
+#footer { background-color: #07121f; color: white; text-align: center; padding: 25px; border-top: 5px solid #e8590c; margin-top: 40px; }
+
+.chapter { padding: 70px 0; border-top: 2px solid rgba(0, 0, 0, 0.2); }
+.c1 { background-color: #f1e6cf; color: #1b2a33; }
+.c2 { background-color: #d6e6e8; color: #17303a; }
+.c3 { background-color: #a9cbd8; color: #10303d; }
+.c4 { background-color: #4a7c99; color: white; }
+.c5 { background-color: #27506f; color: white; }
+.c6 { background-color: #102a45; color: white; }
+.c7 { background-color: #0b1f33; color: white; }
+.c8 { background-color: #14304d; color: white; }
+.c9 { background-color: #07121f; color: white; }
+.chapter h2 { text-align: left; font-size: 230%; color: inherit; }
+
+.year { font-family: Georgia, "Times New Roman", serif; font-size: 400%; color: #e8590c; line-height: 1; }
+.c4 .year, .c5 .year, .c6 .year, .c7 .year, .c8 .year, .c9 .year { color: #ff9a52; }
+.place { display: block; margin-top: 8px; }
+.fact { background-color: white; color: #1b2a33; border-left: 6px solid #e8590c; padding: 12px 16px; margin-top: 15px; }
+
+.photo { border: 5px solid #e8590c; padding: 6px; background-color: white; }
+.emoji-box { border: 5px solid #e8590c; background-color: white; font-size: 100px; text-align: center; padding: 25px; }
+.caption { font-size: 85%; text-align: center; margin-top: 6px; }
+
+.fact-box { border: 2px solid #e8590c; background-color: white; padding: 12px; text-align: center; }
+.fact-box b { display: block; font-size: 160%; color: #e8590c; }
+
+.section { padding: 50px 15px 10px 15px; }
+.subtitle { text-align: center; color: #555555; margin-bottom: 30px; }
+.table thead th { background-color: #0b2447; color: white; }
+
+.award, .book, .member { background-color: white; padding: 20px; text-align: center; }
+.award { border: 3px double #e8590c; }
+.award .year { font-size: 250%; }
+.book { border: 2px dashed #0b2447; height: 100%; }
+.member { border: 2px solid #0b2447; height: 100%; }
+.icon { font-size: 60px; }
+.member .icon { font-size: 55px; }
+.roll { color: #e8590c; font-weight: bold; }
+
+.quote { font-family: Georgia, "Times New Roman", serif; font-size: 150%; text-align: center; padding: 25px; }
